@@ -1,0 +1,143 @@
+/* General Styles */
+.marksoverview-container {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 20px auto;
+ }
+ 
+ .marksoverview-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+ }
+ 
+ .marksoverview-error {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+ }
+ 
+ /* Table Styles */
+ .marksoverview-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .marksoverview-table-header {
+    background-color: #007bff;
+    color: white;
+ }
+ 
+ .marksoverview-table th,
+ .marksoverview-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+ }
+ 
+ .marksoverview-table th {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+ }
+ 
+ .marksoverview-table tr:hover {
+    background-color: #f1f1f1;
+ }
+ 
+ .marksoverview-table-button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+ }
+ 
+ .marksoverview-table-button-edit {
+    background-color: #28a745;
+    color: white;
+ }
+ 
+ .marksoverview-table-button-delete {
+    background-color: #dc3545;
+    color: white;
+ }
+ 
+ .marksoverview-table-button:hover {
+    opacity: 0.9;
+ }
+ 
+ /* Edit Form Styles */
+ .marksoverview-edit-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+ }
+ 
+ .marksoverview-edit-form-title {
+    margin-bottom: 15px;
+    color: #333;
+ }
+ 
+ .marksoverview-edit-form-label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #555;
+ }
+ 
+ .marksoverview-edit-form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+ }
+ 
+ .marksoverview-edit-form-submit {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+ }
+ 
+ .marksoverview-edit-form-submit:hover {
+    background-color: #0056b3;
+ }
+ 
+ /* Back Button Styles */
+ .marksoverview-back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+ }
+ 
+ .marksoverview-back-button:hover {
+    background-color: #5a6268;
+ }

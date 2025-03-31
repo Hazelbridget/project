@@ -1,0 +1,105 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  .app {
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.6); /* Slightly transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+  }
+  
+  .selection {
+    margin: 20px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    color: black;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  td, th {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+  }
+  
+  /* Additional styling */
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input, select {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #f44336;
+  }
+  
+  .back-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  
